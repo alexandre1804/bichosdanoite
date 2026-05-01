@@ -253,15 +253,13 @@
 
     /* ── HERO STATS ── */
     .hero-stats {
-      position: absolute;
-      bottom: 56px;
-      left: 0;
-      right: 0;
-      z-index: 2;
       display: flex;
       justify-content: center;
       gap: 0;
-      padding: 0 48px;
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      width: 100%;
     }
     .hero-stat {
       display: flex;
@@ -286,7 +284,6 @@
       margin-top: 5px;
     }
     @media (max-width: 768px) {
-      .hero-stats { padding: 0 24px; bottom: 48px; }
       .hero-stat { padding: 0 20px; }
       .hero-stat-number { font-size: 1.8rem; }
     }
@@ -821,7 +818,6 @@
         </div>
       </div>
       <p class="hero-eyebrow">Música • Noite • Energia</p>
-      <h1>BICHOS<span>DA NOITE</span></h1>
       <p class="hero-sub">Rock, Pop Rock, Sertanejo e MPB. A banda que vive quando o sol se apaga.</p>
       <div class="hero-actions">
         <a href="https://www.instagram.com/bichos.oficial?igsh=MXJmYWNybGk0M3FzOQ==" target="_blank" class="btn-primary">
@@ -829,20 +825,19 @@
           Ver no Instagram
         </a>
       </div>
-    </div>
-
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <div class="hero-stat-number">100+</div>
-        <div class="hero-stat-label">Shows</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-number">4</div>
-        <div class="hero-stat-label">Gêneros</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-number">5+</div>
-        <div class="hero-stat-label">Anos de Estrada</div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number">100+</div>
+          <div class="hero-stat-label">Shows</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">4</div>
+          <div class="hero-stat-label">Gêneros</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">5+</div>
+          <div class="hero-stat-label">Anos de Estrada</div>
+        </div>
       </div>
     </div>
 
